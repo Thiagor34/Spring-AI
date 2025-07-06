@@ -42,7 +42,7 @@ function RecipeGenerator(){
             onChange={(e) => setDietaryRestriction(e.target.value)}
             placeholder="Escreva o tipo de restrição de dieta"></input>
             
-            <button onClick={createRecipe}>Perguntar</button>
+            <button onClick={createRecipe}>Gerar Receita</button>
 
             <div className="output">
                 <ReactMarkdown>{recipe}</ReactMarkdown>
