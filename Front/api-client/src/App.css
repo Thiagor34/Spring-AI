@@ -1,0 +1,83 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.App button {
+  background-color: #5a5a5a;
+  border: none;
+  padding: 12px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.App button:hover {
+  background-color: #ddd;
+}
+
+.App div {
+  border-top: none;
+  padding: 20px;
+}
+
+.App input[type="text"] {
+  width: 90%;
+  max-width: 600px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 10px;
+  margin: 0 auto 20px auto; 
+  max-width: 500px;
+}
+
+.inputs-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.RecipeGenerator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
