@@ -55,7 +55,7 @@
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application">
       <envs>
-        <env name="OPEN_AI_KEY_TEST" value="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" />
+        <env name="OPEN_AI_KEY_TEST" value="" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="br.com.springai.test.Application" />
       <module name="test" />
@@ -93,7 +93,7 @@
       <updated>1749300764105</updated>
       <workItem from="1749300765573" duration="2996000" />
       <workItem from="1749902934920" duration="4846000" />
-      <workItem from="1751814553171" duration="6651000" />
+      <workItem from="1751814553171" duration="9674000" />
     </task>
     <servers />
   </component>
